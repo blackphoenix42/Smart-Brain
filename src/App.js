@@ -8,26 +8,9 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition'
 import SignIn from './components/SignIn/SignIn'
 import Register from './components/Register/Register'
 import Particles from 'react-particles-js';
-import Clarifai from 'clarifai'
-import API_Key from './config'
 
 function App() {
 
-  const app = new Clarifai.App({
-    apiKey: `${API_Key}`
-  });
-
-  const particlesOptions = {
-    particles: {
-      number: {
-        value: 100,
-        density: {
-          enable: true,
-          value_area: 800
-        }
-      }
-    }
-  }
   const [input, setInput] = useState('')
   const [imageUrl, setImageUrl] = useState('')
   const [box, setBox] = useState({})
@@ -41,6 +24,17 @@ function App() {
   const [joined, setJoined] = useState('')
 
 
+  const particlesOptions = {
+    particles: {
+      number: {
+        value: 100,
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      }
+    }
+  }
 
   const calculateFaceLocation = (data) => {
     const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
@@ -68,8 +62,14 @@ function App() {
 
   const onButtonSubmit = () => {
     setImageUrl(input)
-    app.models
-      .predict(Clarifai.FACE_DETECT_MODEL, input)
+    fetch('http://localhost:3000/imageurl', {
+      method: 'post',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        input
+      })
+    })
+      .then(response => response.json())
       .then(response => {
         if (response) {
           fetch('http://localhost:3000/image', {

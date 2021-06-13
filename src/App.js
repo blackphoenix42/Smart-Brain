@@ -83,6 +83,7 @@ function App() {
             .then(count => {
               setEntries(count)
             })
+            .catch(console.log)
         }
         displayFaceBox(calculateFaceLocation(response))
       })
@@ -91,7 +92,17 @@ function App() {
 
   const onRouteChange = (route) => {
     if (route === 'signout') {
+      setInput('')
+      setImageUrl('')
+      setBox({})
+      setRoute('signin')
       setIsSignedIn(false)
+
+      setId('')
+      setName('')
+      setEmail('')
+      setEntries(0)
+      setJoined('')
     }
     else if (route === 'home') {
       setIsSignedIn(true)

@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ![Issues](https://img.shields.io/github/issues/blackphoenix42/Smart-Brain)
+![Pull Requests](https://img.shields.io/github/issues-pr/blackphoenix42/Smart-Brain)
+![Forks](https://img.shields.io/github/forks/blackphoenix42/Smart-Brain)
+![Stars](https://img.shields.io/github/stars/blackphoenix42/Smart-Brain)
+[![License](https://img.shields.io/github/license/blackphoenix42/Smart-Brain)](https://github.com/blackphoenix42/Smart-Brain/blob/master/LICENSE) -->
 
-## Available Scripts
+<img alt="LOGO" src="./.github/assets/logo.jpg" width="500">
+<h3>Smart Brain</h3>
+<h4>Join official <a href="https://discord.gg/mRUZEhD">Discord Server</a> for discussion.</h4>
 
-In the project directory, you can run:
+![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 📃About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+An app that uses [Clarifai Api](https://www.clarifai.com/models/ai-face-detection) to detect the face in an image from an URL. Backend and Frontend are hosted on Heroku.
 
-### `yarn test`
+<div align="center">
+	<img src="./.github/assets/face-detect.png" width="85%" >
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🌱 Quick Start
 
-### `yarn build`
+- Star🌟 and Fork<img width="15px" src="https://img.icons8.com/doodle/48/000000/code-fork.png"/> this repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone this repository remotely.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+git clone https://github.com/blackphoenix42/Smart-Brain.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Star🌟 and Clone the [server repository](https://github.com/blackphoenix42/Smart-Brain-Server) and follow the instructions to start the server.
 
-### `yarn eject`
+# 🕹Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Install the dependencies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Start the app
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+<div align="center"><img width=35%" src="https://i.giphy.com/media/wABP9NJXf4LEssRZ2s/giphy.webp" ></div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 How to Contribute to Project?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Take a look at the Existing [Issues](https://github.com/blackphoenix42/Smart-Brain/issues) or create your own Issues!
+- Check out [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-### Code Splitting
+<div align="center">
+	<img src="./.github/assets/ToDo.svg" width="50%">
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👾 Project Admin
 
-### Analyzing the Bundle Size
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/blackphoenix42">
+				<img src="https://avatars.githubusercontent.com/u/22915654?v=4" width="100px" alt="" />
+				<br /> <sub><b>blackphoenix42</b></sub>
+			</a>
+			<br /> <a href="https://github.com/blackphoenix42">
+		👑 Admin
+	    </a>
+		</td>
+	</tr>
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- ## 🌟 Contributors
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+	<tr>
+		<td>
+			contrib.rocks
+			</a>
+		</td>
+	</tr>
+</table> -->

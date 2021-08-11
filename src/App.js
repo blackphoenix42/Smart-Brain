@@ -136,7 +136,7 @@ function App() {
             <Logo />
             <Rank name={name} entries={entries} />
             <ImageLinkForm onInputChange={onInputChange} onButtonSubmit={onButtonSubmit} />
-            <FaceRecognition imageUrl={imageUrl} box={boxes} />
+            <FaceRecognition imageUrl={imageUrl} boxes={boxes} />
           </div> :
           (
             route === 'signin' ?
